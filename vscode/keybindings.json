@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+b",
+        "command": "composer.openBrowserTab",
+        "when": "!isGlass"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "-composer.openBrowserTab",
+        "when": "!isGlass"
+    }
+]
