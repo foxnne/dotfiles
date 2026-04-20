@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "feppz!",
+    "workbench.activityBar.orientation": "vertical",
+    "zig.zls.enabled": "on",
+    "zig.buildOnSaveProvider": "zls",
+    "editor.semanticHighlighting.enabled": true,
+  
+    "editor.fontSize": 13,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.type.zig",
+        "settings": {
+          "foreground": "#B7776C"
+        }
+      },
+      {
+        "scope": [
+          "comment",
+          "comment.line",
+          "comment.block",
+          "comment.block.documentation",
+          "string.quoted.docstring",
+          "punctuation.definition.comment"
+        ],
+        "settings": {
+          "foreground": "#6f757c"
+        }
+      }
+    ]
+  },
+}
