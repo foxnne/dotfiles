@@ -9,7 +9,7 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": "entity.name.type.zig",
+        "scope": "entity.name.type.zig", 
         "settings": {
           "foreground": "#B7776C"
         }
@@ -29,4 +29,7 @@
       }
     ]
   },
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
+  "window.autoDetectColorScheme": false,
 }

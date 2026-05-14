@@ -1,0 +1,11 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[user]
+name = "foxnne"
+email = "foxnne@gmail.com"
+
+[revsets]
+log = 'trunk()..@ | ancestors(@, 5)'
+
+[working-copy]
+eol-conversion = "input"
